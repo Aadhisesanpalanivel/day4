@@ -1,0 +1,28 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 20px;
+    border: 2px solid greenyellow;
+    background-color: aqua;
+
+}
+#grid-item
+{
+    margin: 10px;
+    padding: 30px;
+    width: 20px;
+    height: 20px;
+    background-color:black;
+    color: aqua;
+    border: 1px rgb(180, 61, 61) dotted;
+}
+@media screen and (max-width:600px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 20px;
+        border: 3px solid antiquewhite;
+        background-color: chartreuse;
+    
+    }
+}
